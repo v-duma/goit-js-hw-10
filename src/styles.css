@@ -2,7 +2,13 @@ body {
   background-color: #000000;
   color: #d9d9d9;
 }
-
+.cat-description {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
 .is-hidden {
   position: absolute;
   width: 1px;
@@ -72,14 +78,6 @@ body {
     top: 0;
     color: white;
   }
-}
-
-.cat-description {
-  margin-top: 50px;
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 30px;
 }
 
 .box {
